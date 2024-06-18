@@ -1,1 +1,13 @@
 
+@import "./fonts.css";
+
+.testText{
+  font-family: "SF Mono Bold";
+}
+
+nav ul {
+  list-style-type: none; /* Removes the dots */
+  padding: 0; /* Removes the default padding */
+  margin: 0; /* Removes the default margin */
+  display: flex; /* Aligns items in a row */
+}
