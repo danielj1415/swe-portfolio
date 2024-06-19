@@ -1,0 +1,82 @@
+
+.aboutMeFirstSectionContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+.aboutMeFirstSectionContainer p {
+    word-wrap: break-word;
+}
+
+.aboutMeHeading{
+    font-family: "SF Mono Bold";
+    font-size: 44px;
+    margin-bottom: 0.3em;
+}
+
+.aboutMeParagraphContainer{
+    max-width: 590px;
+}
+
+.aboutMeParagraphContainer p {
+    word-wrap: break-word;
+}
+
+.aboutMeParagraph{
+    font-size: 18px;
+}
+
+.space{
+    margin-bottom: 1em;
+}
+
+.aboutMeHeading2{
+    font-family: "SF Mono Bold";
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.aboutMeHeading2-5{
+    font-family: "SF Mono SemiBold";
+    font-size: 20px;
+}
+
+.containerSkillsEducation{
+    display: flex;
+    margin-top: 48px;
+}
+
+.educationContainer{
+    margin-left: 48px;
+    width: 290px;
+}
+
+.school {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.imageDaniel{
+    width: 400px;
+    height: 526px;
+}
+
+strong{
+    font-family: "SF Mono Bold";
+    font-size: 20px;
+}
+
+.aboutMeSecondSectionContainer{
+    margin-top: 48px;
+    width: 800px;
+}
+
+.middle{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.smallerText{
+    font-size: 18px;
+}
