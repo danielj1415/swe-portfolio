@@ -183,6 +183,10 @@
     margin-left: 24px;
 }
 
+.marginTop4px{
+    margin-top: 4px;
+}
+
 .height290px{
     height: 290px;
 }
@@ -195,4 +199,9 @@
 .videoSpotifyProjectDemo{
     height: 100%;
     width: 1056px;
+}
+
+.imagePlantProjectPicture2{
+    height: 303px;
+    width: 516px;
 }

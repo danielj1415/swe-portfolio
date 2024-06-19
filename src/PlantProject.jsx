@@ -8,10 +8,14 @@ import imagePlantProjectHighFidScreens from "./assets/images/imagePlantProjectHi
 import imagePlantProjectHighFidScreens2 from "./assets/images/imagePlantProjectHighFidScreens2.png";
 import imagePlantProjectPicture1 from "./assets/images/imagePlantProjectPicture1.png";
 import imagePlantProjectPicture2 from "./assets/images/imagePlantProjectPicture2.png";
+import YouTubeEmbed from './YoutubeEmbed';
+import YouTubeEmbedSmall from './YoutubeEmbedSmall';
 import "./PlantProject.css";
 import { Outlet, Link } from "react-router-dom"; 
 
 function PlantProject(){
+    const videoPlantProjectAppDemoID = "1IFsPEgGmhY";
+    const videoPlantProjectHardwareDemoID = "e9c-Xu39iF0";
     return(
         <div>
             <div className = "mainContainer">
@@ -87,7 +91,7 @@ function PlantProject(){
                 </div>
                 <p className = "bigParagraph">The Firestore database served as our storage for users, their plants, pH levels, and an array of commands, all initially set to 0. This array of commands represents the user's actions from pressing buttons in the plant pH screen. When a command changes from 0 to 1 in the array, it triggers the corresponding action based on its index. For example, the first index triggers a decrease in pH, the second index triggers an increase in pH, and the third index triggers adding water. The program running on the Raspberry Pi continuously checks for these changes and adjusts the pH and water accordingly using its pumps. Something to note is for the buttons that add and decrease the PH and water solutions, they can be held to continuously dispense or be quickly tapped for smaller doses. Due to time constraints, we couldn't implement the feature of fetching weather data using an API, so static values were used instead. In addition, the graph of showing the pH of the plant had to be scrapped. </p>
                 <p className = "semibold px30 marginTop48px marginBottom8px ">Navigating Through the Application</p>
-
+                <YouTubeEmbed videoId={videoPlantProjectAppDemoID} />
                 <div className = "horizontalCenter marginTop72px">
                     <p className = "bold px40 marginBottom8px">Conclusion</p>
                     <div className = "dividerConclusion"></div>
@@ -101,22 +105,20 @@ function PlantProject(){
                 <p className = "semibold px30 marginTop48px">Pictures and Videos</p>
                 <div className = "horizontal spaceBetween marginTop8px">
                     <div>
-                        <div className="videoContainer">
-                            {/*<video controls className = "video">
-                                <source src={videoPlantProjectDemonstration} type="video/mp4"/>
-                            </video>*/}
+                        <div>
+                            <img src = {imagePlantProjectPicture1}/>
+                            <p className = "littleParagraph px12">The physical structure of the hydroponic system connected to the acidic and basic solutions. </p>
                         </div>
-                        <p className = "littleParagraph px12">Device running with the pumps adding acid and the sensors tracking the pH level.</p>
                     </div>
                     <div>
-                        <img src = {imagePlantProjectPicture1} className = "height290px"/>
-                        <p className = "littleParagraph px12">The physical structure of the hydroponic system connected to the acidic and basic solutions. </p>
+                        <img src = {imagePlantProjectPicture2} className = "height290px imagePlantProjectPicture2"/>
+                        <p className = "littleParagraph px12">The team behind the project (I am on the left)</p>
                     </div>
                 </div>
                 <div className = "horizontal spaceBetween marginTop24px">
-                <div>
-                    <img src = {imagePlantProjectPicture2}/>
-                    <p className = "littleParagraph px12">The team behind the project (I am on the left)</p>
+                    <div>
+                        <YouTubeEmbedSmall videoId={videoPlantProjectHardwareDemoID}/>
+                        <p className = "littleParagraph px12 marginTop4px">Device running with the pumps adding acid and the sensors tracking the pH level.</p>
                     </div>
                 </div>
 

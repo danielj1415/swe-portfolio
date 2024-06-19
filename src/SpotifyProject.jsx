@@ -10,9 +10,14 @@ import imageComponentMusicMenu from "./assets/images/imageComponentMusicMenu.png
 import imageComponentMainPage from "./assets/images/imageComponentMainPage.png";
 import imageComponentInteractionDiagram from "./assets/images/imageComponentInteractionDiagram.png";
 import { Outlet, Link } from "react-router-dom"; 
+import YouTubeEmbed from './YoutubeEmbed';
+import YouTubeEmbedSmall from './YoutubeEmbedSmall';
 import "./PlantProject.css";
 
 function SpotifyProject(){
+
+    const videoSpotifyProjectDemoID = "AtT4LLOH7uA";
+
     return(
     <div>
         <div className = "mainContainer">
@@ -79,6 +84,7 @@ function SpotifyProject(){
                     <p className = "px16 width516 marginLeft24px">The main interaction of this program is based on user input. The program automatically displays the Main Page Component using the Home.js file, which comprises TopPlaylists.js and PlaylistFeed.js. However, if the user clicks on a playlist in the LeftSideBar, the Main Page Component switches to utilize the Playlist.js file. The Playlist.js file is dynamic and displays content based on the selected playlist. The playlists in the LeftSideBar are stored in an array, each containing an index. When a playlist is clicked, the index is passed to Playlist.js, which then displays the corresponding playlist. For example, if the user clicks on the Spiderman playlist, the Main Page Component will display Playlist.js, which in turn displays PlaylistSpiderman.js.</p>
                 </div>
                 <p className = "semibold px30 marginTop48px marginBottom8px">Navigating Through the Application</p>
+                <YouTubeEmbed videoId={videoSpotifyProjectDemoID} />
                 <div className = "horizontalCenter marginTop72px">
                     <p className = "bold px40 marginBottom8px">Conclusion</p>
                     <div className = "dividerConclusion"></div>
