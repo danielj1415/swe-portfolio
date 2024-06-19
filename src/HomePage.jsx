@@ -43,14 +43,14 @@ function HomePage(){
                             <p className = "projectDescriptionText">Application that enables users to change the pH of water for their hydroponics system.</p>
                         </div>
                     </div>
-                    <Link to="/plant">
+                    <Link to="/plant/">
                         <img src = {imagePlantProjectCover} className = "projectImagePlant"/>
                     </Link>
                 </div>
                 {/*Project: Spotify Clone Website*/}
                 <div className = "projectContainer">
                     <div className = "projectText">
-                        <Link to="/plant">
+                        <Link to="/spotify/">
                             <p className = "projectName">Spotify Clone Website</p>
                         </Link>     
                         <div className = "projectTagContainer">
@@ -62,7 +62,7 @@ function HomePage(){
                             <p className = "projectDescriptionText">Website that aims to replicate the functionality and interface of the Spotify Web Player. </p>
                         </div>
                     </div>
-                    <Link to="/spotify">
+                    <Link to="/spotify/">
                         <img src = {imageSpotifyProjectCover} className = "projectImageSpotify"/>
                     </Link>
                 </div>

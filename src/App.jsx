@@ -9,13 +9,13 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/swe-portfolio">
+      <BrowserRouter basename="/swe-portfolio/">
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<AboutMePage />} />
-          <Route path="/plant" element={<PlantProject />} />
-          <Route path="/spotify" element={<SpotifyProject />} />
+          <Route path="/about/" element={<AboutMePage />} />
+          <Route path="/plant/" element={<PlantProject />} />
+          <Route path="/spotify/" element={<SpotifyProject />} />
         </Routes>
       </BrowserRouter>
     </div>
