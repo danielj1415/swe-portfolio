@@ -176,4 +176,11 @@ a{
 .footerText2{
     margin-top: 64px;
 }
+
+.dividerProjects{
+    width: 842px;
+    height: 1px;
+    background-color: #d9d9d9;
+    margin-left: 16px;
+}
  
