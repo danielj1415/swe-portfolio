@@ -1,4 +1,4 @@
-Daniel Jong's Portfolio
+# Daniel Jong's Portfolio
 Welcome to my portfolio! This project showcases my work and skills in UX/UI design and front-end development. It is built using Figma for design and React for the implementation.
 
 Project Overview
