@@ -5,7 +5,7 @@ import imageDaniel from "./assets/images/AboutMePicture.png";
 import { Outlet, Link } from "react-router-dom"; 
 
 function AboutMePage() {
-    const resumeLink = "https://drive.google.com/file/d/14IRxglcZqY8M6Pa2-1-_tVNFMtTbrYKR/view?usp=sharing ";
+    const resumeLink = "https://drive.google.com/file/d/1fWFcXt1XahY002DG3eDPPp58Hlm_b4Fp/view?usp=sharing";
     return (
     <div>
         <div className = "mainContainer">

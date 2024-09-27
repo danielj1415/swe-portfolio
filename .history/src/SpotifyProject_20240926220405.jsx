@@ -17,7 +17,7 @@ import "./PlantProject.css";
 function SpotifyProject(){
 
     const videoSpotifyProjectDemoID = "AtT4LLOH7uA";
-    const resumeLink = "https://drive.google.com/file/d/14IRxglcZqY8M6Pa2-1-_tVNFMtTbrYKR/view?usp=sharing";
+    const resumeLink = "https://drive.google.com/file/d/14IRxglcZqY8M6Pa2-1-_tVNFMtTbrYKR/view?usp=sharing ";
 
     return(
     <div>

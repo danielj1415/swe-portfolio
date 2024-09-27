@@ -1,0 +1,26 @@
+@font-face{
+    
+    src: url("/src/assets/SF-Mono-Regular.otf");
+    font-weight:100;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "SF Mono Medium";
+    src: url("/src/assets/SF-Mono-Medium.otf");
+    font-weight:100;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "SF Mono SemiBold";
+    src: url("/src/assets/SF-Mono-Semibold.otf");
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "SF Mono Bold";
+    src: url("/src/assets/SF-Mono-Bold.otf");
+    font-weight: 100;
+    font-style: normal;
+}
